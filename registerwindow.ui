@@ -44,7 +44,7 @@
     <rect>
      <x>10</x>
      <y>80</y>
-     <width>111</width>
+     <width>121</width>
      <height>16</height>
     </rect>
    </property>
@@ -489,26 +489,26 @@
     </property>
    </widget>
   </widget>
-  <widget class="QLabel" name="labelExisting">
+  <widget class="QLabel" name="labelExistingerror">
    <property name="geometry">
     <rect>
      <x>270</x>
      <y>20</y>
-     <width>111</width>
-     <height>16</height>
+     <width>161</width>
+     <height>21</height>
     </rect>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff2600;&quot;&gt;* Already existing&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="labelNotMatching">
+  <widget class="QLabel" name="labelNotMatchingerror">
    <property name="geometry">
     <rect>
      <x>270</x>
      <y>80</y>
-     <width>111</width>
-     <height>16</height>
+     <width>121</width>
+     <height>21</height>
     </rect>
    </property>
    <property name="text">
@@ -593,13 +593,13 @@
     </property>
    </widget>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="labelage12error">
    <property name="geometry">
     <rect>
-     <x>330</x>
+     <x>320</x>
      <y>160</y>
-     <width>111</width>
-     <height>16</height>
+     <width>121</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="text">
@@ -710,12 +710,12 @@
     <string>Register</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="labelallfillederror">
    <property name="geometry">
     <rect>
      <x>120</x>
      <y>425</y>
-     <width>161</width>
+     <width>191</width>
      <height>21</height>
     </rect>
    </property>
