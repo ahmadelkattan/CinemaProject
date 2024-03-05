@@ -8,7 +8,7 @@ WelcomeWindow::WelcomeWindow(QWidget *parent, QString username, int age)
 {
     ui->setupUi(this);
     ui->labelHello->setText("hello "+username +" "+ QString :: number ( age ));
-    QPixmap pix (":/resources/picture/.jpg");
+    QPixmap pix (":/resources/img/picturee.jpg");
     int w= ui->labelWelcome->width();
     int h = ui->labelWelcome->height();
     ui->labelWelcome->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
